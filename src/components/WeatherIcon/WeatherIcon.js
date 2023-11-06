@@ -1,5 +1,5 @@
-const WeatherIcon = () => {
-  return <div>WeatherIcon</div>
+const WeatherIcon = ({ imageUrl, alt, className }) => {
+  return <img src={imageUrl} alt={alt} className={className} />
 }
 
 export default WeatherIcon

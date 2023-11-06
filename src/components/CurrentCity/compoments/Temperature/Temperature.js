@@ -1,5 +1,5 @@
-const Temperature = () => {
-  return <div>Temperature</div>
-}
+const Temperature = ({ className, value }) => (
+  <div className={className}>{value}°</div>
+)
 
 export default Temperature

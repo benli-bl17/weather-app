@@ -6,7 +6,7 @@ import OtherCities from '../OtherCities'
 
 function WeatherCard() {
   return (
-    <div className="w-4/5 h-4/5 mx-auto rounded-3xl bg-white font-custom overflow-hidden p-8 grid grid-cols-6 grid-rows-6 gap-5">
+    <div className="w-4/5 h-4/5 mx-auto rounded-3xl bg-white font-alimama overflow-hidden p-8 grid grid-cols-6 grid-rows-6 gap-5">
       <div className="col-span-2 row-span-6 bg-blue-300 rounded-2xl">
         <CurrentCity />
       </div>
